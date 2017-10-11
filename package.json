@@ -13,11 +13,13 @@
     "prepublish": "yarn build",
     "coveralls": "cat coverage/lcov.info | coveralls"
   },
-  "dependencies": {
-    "lodash": "^4.17.4",
+  "peerDependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
-    "react-test-renderer": "^15.6.1"
+    "react-test-renderer": "^15.6.1 || ^16.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "@types/debug": "^0.0.30",
